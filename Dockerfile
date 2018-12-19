@@ -6,7 +6,7 @@ RUN apk --no-cache add \
   python3 \
   groff \
   less && \
-  pip3 install awscli==1.16.26 && \
+  pip3 install awscli==1.16.76 && \
   apk --purge --no-cache del py-pip && \
   rm -rf /root/.cache
 
